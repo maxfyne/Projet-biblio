@@ -21,8 +21,6 @@ session_start();
 
 // on pourra donc récupérer l'entrée 'x' de ce même tableau
 
-
-echo "Entrée 'x' dans le tableau de Session : ".$_SESSION["x"];
 echo "Entrée 'prenom' dans le tableau de Session : ".$_SESSION["prenom"];
 echo "Entrée 'nom' dans le tableau de Session : ".$_SESSION["nom"];
 
