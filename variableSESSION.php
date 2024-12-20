@@ -13,17 +13,11 @@ session_start();
 <body>
 <?php
 
-// Variable $x renseignée dans session1.php ... appel de session2.php : $x est inconnue
-
-// (http protocole en mode déconnecté)
-
 // Le tableau $_SESSION est 'super global', on y a accès partout (si session_start() fait)
-
 // on pourra donc récupérer l'entrée 'x' de ce même tableau
 
 echo "Entrée 'prenom' dans le tableau de Session : ".$_SESSION["prenom"];
 echo "Entrée 'nom' dans le tableau de Session : ".$_SESSION["nom"];
-
 
 
 ?>
